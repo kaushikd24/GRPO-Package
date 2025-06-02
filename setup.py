@@ -18,7 +18,7 @@ setup(
         ],
     },
     author="Kaushik D.",
-    author_email="kaushik@example.com",
+    author_email="dwivedi.kaushik24@gmail.com",
     description="Reference implementation of Group Relative Policy Optimization (GRPO)",
     license="Apache-2.0",
     classifiers=[
