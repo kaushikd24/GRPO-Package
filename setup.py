@@ -17,9 +17,9 @@ setup(
             'grpo = grpo.cli:main',
         ],
     },
-    author="Kaushik D.",
+    author="Kaushik D. (Not associated with DeepSeek -- Demo Implementation)",
     author_email="dwivedi.kaushik24@gmail.com",
-    description="Reference implementation of Group Relative Policy Optimization (GRPO)",
+    description="Reference implementation of Group Relative Policy Optimization (GRPO) by DeepSeek",
     license="Apache-2.0",
     classifiers=[
         "Programming Language :: Python :: 3",
