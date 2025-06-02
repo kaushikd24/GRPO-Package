@@ -1,9 +1,9 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="grpo",
+    name="grporlhf",
     version="0.1.0",
-    packages=find_packages(),
+    packages=find_packages(include=["grporlhf*"]),
     install_requires=[
         "torch>=2.2,<2.4",
         "transformers>=4.41.2,<4.43",
@@ -14,7 +14,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'grpo = grpo.cli:main',
+            'grporlhf = grporlhf.cli:main',
         ],
     },
     author="Kaushik D. (Not associated with DeepSeek -- Demo Implementation)",
@@ -27,4 +27,6 @@ setup(
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.9',
+    url="https://github.com/kaushikd24/GRPO-Package",
+    long_description_content_type='text/markdown',
 ) 

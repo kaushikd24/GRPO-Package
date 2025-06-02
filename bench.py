@@ -4,7 +4,7 @@ from peft import PeftModel
 
 def main():
     a = argparse.ArgumentParser()
-    a.add_argument("--model", default="Kaushik/grpo-demo-adapter")
+    a.add_argument("--model", default="Kaushik/grpo-rlhf-demo-adapter")
     args = a.parse_args()
 
     tok = AutoTokenizer.from_pretrained("sshleifer/tiny-gpt2")

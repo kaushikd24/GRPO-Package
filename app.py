@@ -4,7 +4,7 @@ from peft import PeftModel
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
 BASE = "sshleifer/tiny-gpt2"
-CHECKPOINT = "Kaushik/grpo-demo-adapter" # upload LoRA weights here
+CHECKPOINT = "Kaushik/grpo-rlhf-demo-adapter" # upload LoRA weights here
 
 tok = AutoTokenizer.from_pretrained(BASE)
 base = AutoModelForCausalLM.from_pretrained(BASE, torch_dtype=torch.float16)
