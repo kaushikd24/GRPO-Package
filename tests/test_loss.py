@@ -1,6 +1,6 @@
 # tests/test_loss.py
 import torch, random
-from grpo_rlhf.trainer import GRPOTrainer
+from grporlhf.trainer import GRPOTrainer
 from transformers import AutoModelForCausalLM, TrainingArguments
 
 def test_grpo_loss_runs():
