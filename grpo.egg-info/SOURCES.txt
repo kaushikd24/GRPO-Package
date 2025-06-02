@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+grpo/__init__.py
+grpo/_version.py
+grpo/cli.py
+grpo/data_utils.py
+grpo/trainer.py
+grpo/utils.py
+grpo.egg-info/PKG-INFO
+grpo.egg-info/SOURCES.txt
+grpo.egg-info/dependency_links.txt
+grpo.egg-info/entry_points.txt
+grpo.egg-info/requires.txt
+grpo.egg-info/top_level.txt
+tests/test_loss.py

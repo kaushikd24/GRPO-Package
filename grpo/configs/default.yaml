@@ -1,0 +1,14 @@
+model_name: "meta-llama/Llama-3-8B"
+dataset_path: "data/alpaca.jsonl"
+output_dir: "outputs/grpo"
+max_length: 512
+beta: 0.1
+
+training_args:
+  per_device_train_batch_size: 2
+  gradient_accumulation_steps: 8
+  num_train_epochs: 1
+  learning_rate: 5.0e-5
+  logging_steps: 10
+  save_strategy: "epoch"
+  fp16: true
